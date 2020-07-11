@@ -3,11 +3,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "Device",
+    name: "DeviceIOS",
     platforms: [.iOS(.v12)],
     products: [
         .library(
-            name: "Device",
+            name: "DeviceIOS",
             targets: ["DeviceIOS"]),
     ],    
     targets: [
