@@ -14,12 +14,12 @@ let package = Package(
         .target(
             name: "DeviceIOS",
             path: "Source",
-            exclude: [
-                "Device",
-                "Device macOS",
-                "Example",
-                "Example macOS",
-                "Source/macOS"
-            ])
+            sources: [
+                "Size.swift",
+                "Type.swift",
+                "Version.swift",
+                "iOS/Device.swift"
+            ]
+            )
     ]
 )
